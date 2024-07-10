@@ -33,7 +33,10 @@ URxvt*externalBorder: 0
 URxvt*internalBorder: 4
 URxvt*scrollBar: false
 URxvt*saveLines: 5000
-  
+
+URxvt.transparent:   true
+URxvt.shading:       20
+
 URxvt*perl-ext-common: default,tabbedex
 
 URxvt.keysym.Control-Shift-N: perl:tabbedex:new_tab
