@@ -8,6 +8,8 @@ bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 
+export PATH=$PATH::$HOME/go/bin/
+
 autoload -Uz compinit; compinit
 _comp_options+=(globdots) # With hidden files
 source ~/dotfiles/zsh/external/completion.zsh
